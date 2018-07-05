@@ -38,4 +38,5 @@ class Customer
       customer.full_name
     end
   end
+
 end
