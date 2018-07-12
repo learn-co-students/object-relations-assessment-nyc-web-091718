@@ -187,7 +187,7 @@ describe 'Mod1 code challenge' do
         it 'should return the total number of reviews a customer has authored' do
           expect(@harvey_milk.num_reviews).to be_an(Integer)
 
-          expect(@harvey_milk.num_reviews).to be(2)
+          expect(@harvey_milk.num_reviews).to eq(2)
         end
       end
     end
@@ -217,7 +217,7 @@ describe 'Mod1 code challenge' do
       describe '#average_star_rating' do
         it 'should return the average star rating for a restaurant' do
           expect(@compton_cafeteria.average_star_rating).to be_an(Integer)
-          expect(@compton_cafeteria.average_star_rating).to be(5)
+          expect(@compton_cafeteria.average_star_rating).to eq(5)
         end
       end
 
